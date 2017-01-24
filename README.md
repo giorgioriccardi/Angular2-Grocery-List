@@ -1,6 +1,21 @@
 :zap: Angular2 CLI - GroceryStore
 ======
+**Angular2 CLI - GroceryStore** Plain TypeScript implemenation of an Angular2 app via NG-CLI
 
+```
+// the loop that loops through this.data.id and foreach key gets the value
+for ( let foodItemString in this.myFoodItems ) {
+    let foodItem = JSON.parse( foodItemString );
+    if ( this.myFoodItems[foodItemString].id == localID ) { // if the id matches the param id
+      for ( let k in this.myFoodItems[foodItemString] ) { // for each value in the object...
+        if ( this.myFoodItems[foodItemString].hasOwnProperty(k) ) {
+            this[k] = this.myFoodItems[foodItemString][k];
+        }
+      }
+    break; // stop the loop
+  }
+}
+```
 ## Version 
 * Version 2.5
 * Demo: http://griccardi.com/test/angular/grocery-store/
@@ -10,10 +25,8 @@
 * Homepage: www.giorgioriccardi.com
 * e-mail: giorgio.riccardi.ca@gmail.com
 * Twitter: [@GioCreations](https://twitter.com/GioCreations "GioCreations on twitter")
-======
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
-======
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
