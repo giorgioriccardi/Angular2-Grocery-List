@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor="let myData of myFoodItems">
+    <!-- <td><a routerLink="/detail/{{myData.id}}/{{myData.name}}/{{myData.mfg}}/{{myData.pkg}}/{{myData.qty}}" -->
+    <td><a routerLink="/detail/{{myData.id}}" routerLinkActive="active">{{myData.id}}</a></td>
+    <td>{{myData.name}}</td>
+    <!--
+    {{myData.mfg}}
+    {{myData.pkg}}
+    {{myData.qty}}
+    -->
+  </tr>
+</table>
