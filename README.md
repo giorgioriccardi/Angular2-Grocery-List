@@ -1,6 +1,19 @@
-# GroceryStore
+:zap: Angular2 CLI - GroceryStore
+======
+
+## Version 
+* Version 2.5
+* Demo: http://griccardi.com/test/angular/grocery-store/
+
+## Contact
+#### Developer
+* Homepage: www.giorgioriccardi.com
+* e-mail: giorgio.riccardi.ca@gmail.com
+* Twitter: [@GioCreations](https://twitter.com/GioCreations "GioCreations on twitter")
+======
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+======
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
